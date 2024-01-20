@@ -9,9 +9,9 @@ const outsideClickListener = ref(null);
 const topbarMenuActive = ref(false);
 const router = useRouter();
 
-// onMounted(() => {
-//     bindOutsideClickListener();
-// });
+onMounted(() => {
+    bindOutsideClickListener();
+});
 
 onBeforeUnmount(() => {
     unbindOutsideClickListener();
