@@ -11,3 +11,8 @@
     transition: box-shadow .2s;
     box-shadow: inset var(--focus-ring);
 }
+
+@mixin size($w,$h){
+    width: $w;
+    height: $h;
+}

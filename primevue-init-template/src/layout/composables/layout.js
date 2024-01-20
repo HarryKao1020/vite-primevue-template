@@ -1,6 +1,6 @@
 import { toRefs, reactive, computed } from 'vue';
 
-const layoutConfig = reactive({
+const layoutConfig= reactive({
     ripple: false,
     darkTheme: false,
     inputStyle: 'outlined',
